@@ -3,7 +3,7 @@
 
    <head>
    	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" charset="utf-8">
-
+		<link rel="icon" type="image/x-icon" href="assets/favicon.ico">
    	<!-- Bootstrap CSS -->
    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -13,8 +13,16 @@
    </head>
 
    <body>
-		<div ng-controller="testCtrl">
-			{{test}}
+		<!-- <div class="snow-img">
+			<img src="assets/snow.gif" alt="" width="100%" height="100%">
+		</div> -->
+
+		<div id="snow"></div>
+
+		<div class="container">
+			<div ng-controller="testCtrl">
+				{{test}}
+			</div>
 		</div>
 
    	<!-- JQUERY -->
