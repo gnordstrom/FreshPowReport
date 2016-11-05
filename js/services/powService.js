@@ -1,37 +1,11 @@
-'use strict';
-
-angular.module('FreshPowReport', []);
-'use strict';
-
-angular.module('FreshPowReport').controller('parkCityUT', function ($scope, powService) {
-  powService.getPC().then(function (data) {
-    // console.log(data);
-    $scope.parkCity = data;
-  });
-});
-'use strict';
-
-angular.module('FreshPowReport').controller('testCtrl', function ($scope) {
-	$scope.test = "Works! Muahhaha!";
-});
-'use strict';
-
-angular.module('FreshPowReport').directive('parkCity', function () {
-  return {
-    restrict: 'E',
-    templateUrl: '../../views/parkCity.html'
-  };
-});
-'use strict';
-
-angular.module('FreshPowReport').service('powService', function ($http) {
+angular.module('FreshPowReport').service('powService', function($http){
 
   // Park City
-  this.getPC = function () {
-    return $http({
+  this.getPC = function() {
+    return $http ({
       method: 'GET',
       url: 'http://api.worldweatheronline.com/premium/v1/ski.ashx?key=183e67661c2b4eec9b4223351160411&q=Park City&format=json&date=today'
-    }).then(function (response) {
+    }).then(function(response){
       // console.log(response);
       return response.data;
     });
@@ -83,5 +57,5 @@ angular.module('FreshPowReport').service('powService', function ($http) {
   //     return response.data.standing;
   //   });
   // };
+
 });
-//# sourceMappingURL=bundle.js.map
