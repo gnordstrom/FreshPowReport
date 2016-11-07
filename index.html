@@ -36,8 +36,8 @@
 				</div>
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav navbar-right">
-						<li class="active"><a href="#">Latest Report <span class="sr-only">(current)</span></a></li>
-						<li><a href="#">Archive</a></li>
+						<!-- <li class="active"><a href="#">Latest Report <span class="sr-only">(current)</span></a></li> -->
+						<!-- <li><a href="#">Archive</a></li> -->
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Ski Resorts <span class="caret"></span></a>
 							<ul class="dropdown-menu" role="menu">
@@ -60,32 +60,59 @@
 			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 			  <!-- Indicators -->
 			  <ol class="carousel-indicators">
-			    <li data-target="#carousel-example-generic1" data-slide-to="0" class="active"></li>
-			    <li data-target="#carousel-example-generic2" data-slide-to="1"></li>
-			    <li data-target="#carousel-example-generic3" data-slide-to="2"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="6"></li>
 			  </ol>
 
 			  <!-- Wrapper for slides -->
 			  <div class="carousel-inner" role="listbox">
 			    <div class="item active">
-			      <img src="assets/starwars.png" alt="...">
+			      <img src="assets/travis_rice_art_flight_140907.jpg" alt="...">
 			      <div class="carousel-caption">
-			        ...
+			        The Process We Follow
 			      </div>
 			    </div>
 			    <div class="item">
 			      <img src="assets/sunset.jpg" alt="...">
 			      <div class="carousel-caption">
-			        ...
+			        The Cycle We Ride.
 			      </div>
 			    </div>
 				 <div class="item">
-			      <img src="assets/girl-tan.jpg" alt="...">
-			      <div class="carousel-caption">
-			        ...
-			      </div>
+				  <img src="assets/f26eccc7d307aea5cdcd1d50e1681e03.jpg" alt="...">
+				  <div class="carousel-caption">
+				   ...
+				  </div>
+			   </div>
+				 <div class="item">
+				  	<img src="assets/powspray.jpeg" alt="...">
+				  	<div class="carousel-caption">
+					 ...
+				  	</div>
 			    </div>
-			    ...
+				<div class="item">
+				  <img src="assets/Snowboard-Photo-Jan-Scherrer-Sunset-Kitzsteinhorn-by-Vernon-Deck.jpg" alt="...">
+				  <div class="carousel-caption">
+					 ...
+				  </div>
+				</div>
+				<div class="item">
+				  <img src="assets/starwars.png" alt="...">
+				  <div class="carousel-caption">
+
+				  </div>
+				</div>
+				<div class="item">
+				  <img src="assets/girl-tan.jpg" alt="...">
+				  <div class="carousel-caption">
+					 ...
+				  </div>
+				</div>
 			  </div>
 
 			  <!-- Controls -->
@@ -97,8 +124,10 @@
 			    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 			    <span class="sr-only">Next</span>
 			  </a>
-			</div>	
+			</div>
 		</div>
+
+		<div class="border" style="width: 80%; border: 2px solid #010828; margin: 20px auto;"></div>
 
 
 		<div ng-controller="testCtrl">
@@ -116,8 +145,10 @@
 	<!-- ANGULAR -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.js"></script>
-	<script src="dist/js/bundle.js"></script>
+	<!-- <script src="dist/js/bundle.js"></script> -->
+	<script src="js/app.js"></script>
 	<script src="js/controllers/parkCityUT.js"></script>
+	<script src="js/controllers/testCtrl.js"></script>
 	<script src="js/directives/dir-parkCity.js"></script>
 </body>
 

@@ -3,7 +3,7 @@ body {
   background-color: #010828; }
 
 .container {
-  background-color: #f0f0f0;
+  background-color: #fcfcfc;
   height: 90vh;
   margin-top: 30px; }
 
@@ -29,11 +29,12 @@ body {
   height: 300px; }
 
 .carousel-inner img {
-  height: 350px !important; }
+  height: 350px !important;
+  width: 100% !important; }
 
 #carousel-example-generic {
   height: 350px;
-  width: 50%; }
+  width: 60%; }
 
 #snow {
   background: none;
