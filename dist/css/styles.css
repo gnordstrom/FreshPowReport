@@ -186,6 +186,10 @@ body {
 .panel-title {
   color: #fff !important; }
 
+.panel-swe {
+  display: flex;
+  justify-content: center; }
+
 .space-taker {
   height: 85px; }
 

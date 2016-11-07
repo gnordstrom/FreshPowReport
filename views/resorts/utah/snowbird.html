@@ -1,0 +1,82 @@
+<div class="resort-container">
+	<div class="trailmap">
+		<img src="../../assets/trailmaps/utah/snowbird-map.jpg" alt="">
+	</div>
+	<h1 id="title">Snowbird, Utah</h1>
+	<h3>3-Day Snow Report:</h3>
+
+		<table class="table table-striped table-hover">
+			<thead>
+				<tr class="info">
+					<th></th>
+					<th ng-repeat="day in snowbird">{{day.date | date: 'longDate'}}</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><strong>Chance of snow</strong></td>
+					<td ng-repeat="day in snowbird">{{day.chanceofsnow}}%</td>
+				</tr>
+				<tr class="active">
+					<td><strong>Fresh Powder Total:</strong></td>
+					<td ng-repeat="day in snowbird">{{day.totalSnowfall_cm}} cm</td>
+				</tr>
+				<tr>
+					<td><strong>(Base) Min. Temp</strong></td>
+					<td ng-repeat="day in snowbird">{{day.bottom[0].mintempF}}°F </td>
+				</tr>
+				<tr class="active">
+					<td><strong>(Base) Max. Temp</strong></td>
+					<td ng-repeat="day in snowbird">{{day.bottom[0].maxtempF}}°F </td>
+				</tr>
+				<tr>
+					<td><strong>(Summit) Min. Temp</strong></td>
+					<td ng-repeat="day in snowbird">{{day.top[0].mintempF}}°F </td>
+				</tr>
+				<tr class="active">
+					<td><strong>(Summit) Max. Temp</strong></td>
+					<td ng-repeat="day in snowbird">{{day.top[0].maxtempF}}°F </td>
+				</tr>
+				<tr>
+					<td><strong>(Base) - Wind at 09:00</strong></td>
+					<td ng-repeat="day in snowbird">{{day.hourly[3].bottom[0].windspeedMiles}} mph - {{day.hourly[3].bottom[0].winddir16Point}} </td>
+				</tr>
+				<tr class="active">
+					<td><strong>(Base) - Wind at 15:00</strong></td>
+					<td ng-repeat="day in snowbird">{{day.hourly[5].bottom[0].windspeedMiles}} mph - {{day.hourly[5].bottom[0].winddir16Point}} </td>
+				</tr>
+				<tr>
+					<td><strong>(Summit) - Wind at 09:00</strong></td>
+					<td ng-repeat="day in snowbird">{{day.hourly[3].top[0].windspeedMiles}} mph - {{day.hourly[3].top[0].winddir16Point}} </td>
+				</tr>
+				<tr class="active">
+					<td><strong>(Summit) - Wind at 15:00</strong></td>
+					<td ng-repeat="day in snowbird">{{day.hourly[5].top[0].windspeedMiles}} mph - {{day.hourly[5].top[0].winddir16Point}} </td>
+				</tr>
+				<tr>
+					<td><strong>Sunrise</strong></td>
+					<td ng-repeat="day in snowbird">{{day.astronomy[0].sunrise}}</td>
+				</tr>
+				<tr class="active">
+					<td><strong>Sunset</strong></td>
+					<td ng-repeat="day in snowbird">{{day.astronomy[0].sunset}}</td>
+				</tr>
+			</tbody>
+		</table>
+
+	<!-- Useful Links Panel -->
+	<div class="useful-links">
+		<div class="panel panel-info">
+			<div class="panel-heading">
+				<h3 class="panel-title">Useful Links:</h3>
+			</div>
+			<div class="panel-body">
+				<ul>
+					<li><a href="https://www.snowbird.com/">Snowbird Official Site</a></li>
+					<li><a href="http://www.onthesnow.com/utah/snowbird/ski-resort.html">OnTheSnow Review</a></li>
+					<li><a href="https://www.wikiwand.com/en/Snowbird,_Utah">Snowbird, UT - Wikipedia</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>

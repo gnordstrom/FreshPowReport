@@ -23,13 +23,104 @@ angular.module('FreshPowReport').service('powService', function($http){
 	 });
   };
 
+////// Sweden
+// Kläppen Ski Resort
+this.getKlappen = function() {
+  return $http ({
+	 method: 'GET',
+	 url: 'http://api.worldweatheronline.com/premium/v1/ski.ashx?key=183e67661c2b4eec9b4223351160411&q=61.0324, 13.3405&format=json&date=today&num_of_days=3'
+  }).then(function(response){
+	 console.log(response);
+	 return response.data.data.weather;
+  });
+};
 
 ////// Utah Resorts
+  // Alta
+  this.getAlta = function() {
+    return $http ({
+      method: 'GET',
+      url: 'http://api.worldweatheronline.com/premium/v1/ski.ashx?key=183e67661c2b4eec9b4223351160411&q=84092&format=json&date=today&num_of_days=3'
+    }).then(function(response){
+      console.log(response);
+      return response.data.data.weather;
+    });
+  };
+  // Brian Head
+  this.getBrianHead = function() {
+    return $http ({
+      method: 'GET',
+      url: 'http://api.worldweatheronline.com/premium/v1/ski.ashx?key=183e67661c2b4eec9b4223351160411&q=84719&format=json&date=today&num_of_days=3'
+    }).then(function(response){
+      console.log(response);
+      return response.data.data.weather;
+    });
+  };
+  // Brighton
+  this.getBrighton = function() {
+    return $http ({
+      method: 'GET',
+      url: 'http://api.worldweatheronline.com/premium/v1/ski.ashx?key=183e67661c2b4eec9b4223351160411&q=84121&format=json&date=today&num_of_days=3'
+    }).then(function(response){
+      console.log(response);
+      return response.data.data.weather;
+    });
+  };
+  // Deer Valley
+  this.getDeerValley = function() {
+    return $http ({
+      method: 'GET',
+      url: 'http://api.worldweatheronline.com/premium/v1/ski.ashx?key=183e67661c2b4eec9b4223351160411&q=84060&format=json&date=today&num_of_days=3'
+    }).then(function(response){
+      console.log(response);
+      return response.data.data.weather;
+    });
+  };
+  // Eagle Point
+  this.getEaglePoint = function() {
+    return $http ({
+      method: 'GET',
+      url: 'http://api.worldweatheronline.com/premium/v1/ski.ashx?key=183e67661c2b4eec9b4223351160411&q=84713&format=json&date=today&num_of_days=3'
+    }).then(function(response){
+      console.log(response);
+      return response.data.data.weather;
+    });
+  };
+  // Nordic Valley
+  this.getNordicValley = function() {
+    return $http ({
+      method: 'GET',
+      url: 'http://api.worldweatheronline.com/premium/v1/ski.ashx?key=183e67661c2b4eec9b4223351160411&q=84310&format=json&date=today&num_of_days=3'
+    }).then(function(response){
+      console.log(response);
+      return response.data.data.weather;
+    });
+  };
   // Park City
   this.getPC = function() {
     return $http ({
       method: 'GET',
       url: 'http://api.worldweatheronline.com/premium/v1/ski.ashx?key=183e67661c2b4eec9b4223351160411&q=Park City&format=json&date=today&num_of_days=3'
+    }).then(function(response){
+      console.log(response);
+      return response.data.data.weather;
+    });
+  };
+  // Powder Mountain
+  this.getPowderMountain = function() {
+    return $http ({
+      method: 'GET',
+      url: 'http://api.worldweatheronline.com/premium/v1/ski.ashx?key=183e67661c2b4eec9b4223351160411&q=Powder Mountain&format=json&date=today&num_of_days=3'
+    }).then(function(response){
+      console.log(response);
+      return response.data.data.weather;
+    });
+  };
+  // Snowbasin
+  this.getSnowbasin = function() {
+    return $http ({
+      method: 'GET',
+      url: 'http://api.worldweatheronline.com/premium/v1/ski.ashx?key=183e67661c2b4eec9b4223351160411&q=84317&format=json&date=today&num_of_days=3'
     }).then(function(response){
       console.log(response);
       return response.data.data.weather;
@@ -44,6 +135,26 @@ angular.module('FreshPowReport').service('powService', function($http){
 		console.log(response);
 		return response.data.data.weather;
 	 });
+  };
+  // Solitude
+  this.getSolitude = function() {
+    return $http ({
+      method: 'GET',
+      url: 'http://api.worldweatheronline.com/premium/v1/ski.ashx?key=183e67661c2b4eec9b4223351160411&q=84121&format=json&date=today&num_of_days=3'
+    }).then(function(response){
+      console.log(response);
+      return response.data.data.weather;
+    });
+  };
+  // Sundance
+  this.getSundance = function() {
+    return $http ({
+      method: 'GET',
+      url: 'http://api.worldweatheronline.com/premium/v1/ski.ashx?key=183e67661c2b4eec9b4223351160411&q=Sundance&format=json&date=today&num_of_days=3'
+    }).then(function(response){
+      console.log(response);
+      return response.data.data.weather;
+    });
   };
 
   // Weather API for Home View
