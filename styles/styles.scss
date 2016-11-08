@@ -1,7 +1,11 @@
-// Imports
+/////////////////
+//// Imports ////
+/////////////////
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web');
 
-// Variables
+///////////////////
+//// Variables ////
+///////////////////
 $primary-color: cyan;
 $primary-darkblue: #2C3E50;
 $primary-font: 'Titillium Web', 'sans-serif';
@@ -19,8 +23,9 @@ body {
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
-
-// Navbar / Header
+////////////////
+//// Navbar ////
+////////////////
 .navbar {
 	margin-top: 10px;
 }
@@ -38,8 +43,9 @@ body {
 	color: $primary-color !important;
 }
 
-
-// Carousel
+//////////////////
+//// Carousel ////
+//////////////////
 .top-box {
 	display: flex;
 	justify-content: center;
@@ -60,8 +66,9 @@ body {
 	margin-top: 50px;
 }
 
-
-// Animated Snow Background
+///////////////////////////////////
+//// Snow/Background Animation ////
+///////////////////////////////////
 #snow{
 	background: none;
 	font-family: Androgyne;
@@ -98,11 +105,9 @@ body {
   100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
 }
 
-
-// Mobile View Media Queries
-
-
-// Footer
+////////////////
+//// Footer ////
+////////////////
 .footerbox {
   color: black;
   text-align: center;
@@ -124,7 +129,9 @@ body {
   color: black;
 }
 
-// Useful Links panel
+////////////////////////////
+//// Useful Links panel ////
+////////////////////////////
 .useful-links {
 	display: flex;
 	justify-content: center;
@@ -135,22 +142,28 @@ body {
 	text-align: center;
 }
 
+							   ///////////////////////////
+								////// --> VIEWS <-- //////
+								///////////////////////////
 
-								//////////////// 		VIEWS
-
-// Weather Table
+///////////////////////
+//// Weather Table ////
+///////////////////////
 .table {
 	width: 70%;
 	margin: auto;
 }
 
-//// Home
+//////////////
+//// Home ////
+//////////////
 .home-container {
 	height: 218px;
 }
 
-
-//// Resorts
+/////////////////
+//// Resorts ////
+/////////////////
 .resort-container {
 	width: 90%;
 	margin: auto;
@@ -195,12 +208,8 @@ body {
 	margin-top: -700px;
 }
 
-
 //// Panel for Resort View
 .panel-container {
-	// display: flex;
-	// justify-content: space-between;
-	// // position: absolulte;
 	margin-top: -660px;
 }
 .panel-container h1 {
@@ -214,7 +223,6 @@ body {
 .panel-cards {
 	display: flex;
 	justify-content: space-around;
-	// opacity: 0.8;
 }
 .panel {
 	width: 30%;
