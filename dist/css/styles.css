@@ -40,6 +40,9 @@ body {
   height: 350px;
   width: 60%; }
 
+.carousel-div {
+  margin-top: 50px; }
+
 #snow {
   background: none;
   font-family: Androgyne;
@@ -166,7 +169,7 @@ body {
   margin-top: -700px; }
 
 .panel-container {
-  margin-top: -620px; }
+  margin-top: -660px; }
 
 .panel-container h1 {
   text-align: center;
@@ -181,10 +184,17 @@ body {
   justify-content: space-around; }
 
 .panel {
-  width: 30%; }
+  width: 30%;
+  opacity: 0.8; }
 
 .panel-title {
   color: #fff !important; }
+
+.panel-body ol {
+  line-height: 0.7; }
+
+.panel-body a {
+  font-weight: bold; }
 
 .panel-swe {
   display: flex;

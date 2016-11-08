@@ -5,12 +5,13 @@ angular.module('FreshPowReport', ['ui.router']).config(function($stateProvider, 
 	$stateProvider
 	.state('home', {
 		url: '/',
-		templateUrl: 'views/home/home.html'
-	})
-	.state('resorts', {
-		url: '/resorts',
 		templateUrl: 'views/resorts/resorts.html'
 	})
+	// 'views/home/home.html'
+	// .state('resorts', {
+	// 	url: '/resorts',
+	// 	templateUrl: 'views/resorts/resorts.html'
+	// })
 
 	// Colorado
 	.state('a-basin', {

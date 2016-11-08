@@ -1,7 +1,6 @@
 <div style="text-align: center;">
-	<strong>{{time | date: 'HH:mm:ss'}}</strong>
+	<span style="font-size: 20px; color: #fff;">{{time | date: 'fullDate'}}</span>
 	<br>
-	{{time | date: 'fullDate'}}
-	<br>
-	{{fahrenheit}}°F in <strong>Provo, UT</strong>
+	<span style="color: #fff;">{{time | date: 'HH:mm:ss'}} ~ {{fahrenheit}}°F in Provo, UT</span>
+
 </div>
