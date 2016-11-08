@@ -1,6 +1,6 @@
 angular.module('FreshPowReport').directive('carouselDir', function() {
 	return {
-		templateUrl: '../../views/home/carousel.html',
+		templateUrl: '../../views/carousel.html',
 		restrict: 'EA'
 	}
 });

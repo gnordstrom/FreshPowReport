@@ -7,11 +7,6 @@ angular.module('FreshPowReport', ['ui.router']).config(function($stateProvider, 
 		url: '/',
 		templateUrl: 'views/resorts/resorts.html'
 	})
-	// 'views/home/home.html'
-	// .state('resorts', {
-	// 	url: '/resorts',
-	// 	templateUrl: 'views/resorts/resorts.html'
-	// })
 	//// California
 	.state('alpinemeadows', {
 		url: '/resorts/california/alpine-meadows',
