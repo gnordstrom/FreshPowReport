@@ -19,7 +19,7 @@ angular.module('FreshPowReport').directive('carouselDir', function() {
 				 <div class="item active">
 					<img src="assets/photos/travis_rice_art_flight_140907.jpg" alt="...">
 					<div class="carousel-caption">
-					  <a href="https://gnordstrom.github.io/RedDevils/#/"><i class="fa fa-pied-piper" aria-hidden="true"></i></a>
+					  <a href="https://gnordstrom.github.io/RedDevils/#/"><i class="fa fa-pied-piper" style="color: steelblue;" aria-hidden="true"></i></a>
 					</div>
 				 </div>
 				 <div class="item">
