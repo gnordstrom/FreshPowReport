@@ -191,7 +191,8 @@ body {
   color: #fff !important; }
 
 .panel-body ol {
-  line-height: 0.7; }
+  line-height: 0.7;
+  padding-left: 1.3em; }
 
 .panel-body a {
   font-weight: bold; }
