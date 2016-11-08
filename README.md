@@ -1,5 +1,10 @@
 # FreshPowReport
 
+Built using AngularJS, Twitter Bootstrap, Bootswatch, SASS and Gulp.
+
+Main View:
 <img src="https://github.com/gnordstrom/FreshPowReport/blob/master/assets/screenshots/screenshot-main.png?raw=true"/>
 
-<!-- <img src="https://cloud.githubusercontent.com/assets/18754122/18464506/ba358062-794e-11e6-93b7-40b5cdb9d151.jpg"/> -->
+Examples of specific resorts:
+<img src="https://github.com/gnordstrom/FreshPowReport/blob/master/assets/screenshots/screenshot-swe.png?raw=true"/>
+<img src="https://github.com/gnordstrom/FreshPowReport/blob/master/assets/screenshots/screenshot-pc.png?raw=true"/>
