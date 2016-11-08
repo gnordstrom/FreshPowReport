@@ -12,27 +12,163 @@ angular.module('FreshPowReport', ['ui.router']).config(function($stateProvider, 
 	// 	url: '/resorts',
 	// 	templateUrl: 'views/resorts/resorts.html'
 	// })
+	//// California
+	.state('alpinemeadows', {
+		url: '/resorts/california/alpine-meadows',
+		templateUrl: 'views/resorts/california/alpine-meadows.html',
+		controller: 'alpineMeadowsCtrl'
+	})
+	.state('bearvalley', {
+		url: '/resorts/california/bear-valley',
+		templateUrl: 'views/resorts/california/bear-valley.html',
+		controller: 'bearValleyCtrl'
+	})
+	.state('dodgeridge', {
+		url: '/resorts/california/dodge-ridge',
+		templateUrl: 'views/resorts/california/dodge-ridge.html',
+		controller: 'dodgeRidgeCtrl'
+	})
+	.state('heavenly', {
+		url: '/resorts/california/heavenly',
+		templateUrl: 'views/resorts/california/heavenly.html',
+		controller: 'heavenlyCtrl'
+	})
+	.state('homewood', {
+		url: '/resorts/california/homewood',
+		templateUrl: 'views/resorts/california/homewood.html',
+		controller: 'homewoodCtrl'
+	})
+	.state('kirkwood', {
+		url: '/resorts/california/kirkwood',
+		templateUrl: 'views/resorts/california/kirkwood.html',
+		controller: 'kirkwoodCtrl'
+	})
+	.state('mammoth', {
+		url: '/resorts/california/mammoth',
+		templateUrl: 'views/resorts/california/mammoth.html',
+		controller: 'mammothCtrl'
+	})
+	.state('mountainhigh', {
+		url: '/resorts/california/mountain-high',
+		templateUrl: 'views/resorts/california/mountain-high.html',
+		controller: 'mountainHighCtrl'
+	})
+	.state('mtbaldy', {
+		url: '/resorts/california/mt-baldy',
+		templateUrl: 'views/resorts/california/mt-baldy.html',
+		controller: 'mtBaldyCtrl'
+	})
+	.state('northstar', {
+		url: '/resorts/california/northstar',
+		templateUrl: 'views/resorts/california/northstar.html',
+		controller: 'northstarCtrl'
+	})
+	.state('sierra', {
+		url: '/resorts/california/sierra-at-tahoe',
+		templateUrl: 'views/resorts/california/sierra-at-tahoe.html',
+		controller: 'sierraCtrl'
+	})
+	.state('squawvalley', {
+		url: '/resorts/california/alpine-meadow',
+		templateUrl: 'views/resorts/california/squaw-valley.html',
+		controller: 'squawValleyCtrl'
+	})
+	.state('sugarbowl', {
+		url: '/resorts/california/sugar-bowl',
+		templateUrl: 'views/resorts/california/sugar-bowl.html',
+		controller: 'sugarBowlCtrl'
+	})
 
-	// Colorado
+	////// Colorado
 	.state('a-basin', {
 		url: '/resorts/colorado/a-basin',
 		templateUrl: 'views/resorts/colorado/a-basin.html',
 		controller: 'aBasinCO'
+	})
+	.state('aspen', {
+		url: '/resorts/colorado/aspen',
+		templateUrl: 'views/resorts/colorado/aspen.html',
+		controller: 'aspenCtrl'
+	})
+	.state('beavercreek', {
+		url: '/resorts/colorado/beavercreek',
+		templateUrl: 'views/resorts/colorado/beavercreek.html',
+		controller: 'beavercreekCtrl'
+	})
+	.state('breckenridge', {
+		url: '/resorts/colorado/breckenridge',
+		templateUrl: 'views/resorts/colorado/breckenridge.html',
+		controller: 'breckenridgeCtrl'
+	})
+	.state('buttermilk', {
+		url: '/resorts/colorado/buttermilk',
+		templateUrl: 'views/resorts/colorado/buttermilk.html',
+		controller: 'buttermilkCtrl'
+	})
+	.state('coppermountain', {
+		url: '/resorts/colorado/copper-mountain',
+		templateUrl: 'views/resorts/colorado/coppermountain.html',
+		controller: 'copperCtrl'
+	})
+	.state('eldora', {
+		url: '/resorts/colorado/eldora',
+		templateUrl: 'views/resorts/colorado/eldora.html',
+		controller: 'eldoraCtrl'
+	})
+	.state('keystone', {
+		url: '/resorts/colorado/keystone',
+		templateUrl: 'views/resorts/colorado/keystone.html',
+		controller: 'keystoneCtrl'
+	})
+	.state('loveland', {
+		url: '/resorts/colorado/loveland',
+		templateUrl: 'views/resorts/colorado/loveland.html',
+		controller: 'lovelandCtrl'
+	})
+	.state('monarch', {
+		url: '/resorts/colorado/monarch',
+		templateUrl: 'views/resorts/colorado/monarch.html',
+		controller: 'monarchCtrl'
+	})
+	.state('powderhorn', {
+		url: '/resorts/colorado/powderhorn',
+		templateUrl: 'views/resorts/colorado/powderhorn.html',
+		controller: 'powderhornCtrl'
+	})
+	.state('purgatory', {
+		url: '/resorts/colorado/purgatory',
+		templateUrl: 'views/resorts/colorado/purgatory.html',
+		controller: 'purgatoryCtrl'
+	})
+	.state('steamboatsprings', {
+		url: '/resorts/colorado/steamboat-springs',
+		templateUrl: 'views/resorts/colorado/steamboatsprings.html',
+		controller: 'steamboatCtrl'
+	})
+	.state('telluride', {
+		url: '/resorts/colorado/telluride',
+		templateUrl: 'views/resorts/colorado/telluride.html',
+		controller: 'tellurideCtrl'
 	})
 	.state('vail', {
 		url: '/resorts/colorado/vail',
 		templateUrl: 'views/resorts/colorado/vail.html',
 		controller: 'vailCO'
 	})
+	.state('winterpark', {
+		url: '/resorts/colorado/winter-park',
+		templateUrl: 'views/resorts/colorado/winterpark.html',
+		controller: 'winterparkCtrl'
+	})
 
-	// Sweden
+	//// Sweden
 	.state('klappen', {
 		url: '/resorts/sweden/klappen',
 		templateUrl: 'views/resorts/sweden/klappen.html',
 		controller: 'klappenCtrl'
 	})
 
-	// Utah
+	//// Utah
 	.state('alta', {
 		url: '/resorts/utah/alta',
 		templateUrl: 'views/resorts/utah/alta.html',
