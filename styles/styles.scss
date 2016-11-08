@@ -56,6 +56,9 @@ body {
 	height: 350px;
 	width: 60%;
 }
+.carousel-div {
+	margin-top: 50px;
+}
 
 
 // Animated Snow Background
@@ -198,7 +201,7 @@ body {
 	// display: flex;
 	// justify-content: space-between;
 	// // position: absolulte;
-	margin-top: -620px;
+	margin-top: -660px;
 }
 .panel-container h1 {
 	text-align: center;
@@ -211,13 +214,24 @@ body {
 .panel-cards {
 	display: flex;
 	justify-content: space-around;
+	// opacity: 0.8;
 }
 .panel {
 	width: 30%;
+	opacity: 0.8;
 }
 .panel-title {
 	color: #fff !important;
 }
+
+.panel-body ol {
+	line-height: 0.7;
+}
+
+.panel-body a {
+	font-weight: bold;
+}
+
 .panel-swe {
 	display: flex;
 	justify-content: center;
