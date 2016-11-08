@@ -3529,6 +3529,8 @@ tbody.collapse.in {
   display: none;
   float: left;
   min-width: 160px;
+  height: 350px;
+  overflow: auto;
   padding: 5px 0;
   margin: 2px 0 0;
   list-style: none;
