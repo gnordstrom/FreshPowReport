@@ -299,7 +299,7 @@ angular.module('FreshPowReport').service('powService', function($http){
 this.getKlappen = function() {
   return $http ({
 	 method: 'GET',
-	 url: 'http://api.worldweatheronline.com/premium/v1/ski.ashx?key=183e67661c2b4eec9b4223351160411&q=61.0324, 13.3405&format=json&date=today&num_of_days=3'
+	 url: 'http://api.worldweatheronline.com/premium/v1/ski.ashx?key=183e67661c2b4eec9b4223351160411&q=61.0324,13.3405&format=json&date=today&num_of_days=3'
   }).then(function(response){
 	//  console.log(response);
 	 return response.data.data.weather;
